@@ -1,4 +1,4 @@
-public class Day01_DekUpVar {
+public class Day09_DekInUpVar {
     public static void main(String[] args) {
         //Deklarasi
         String nama;
