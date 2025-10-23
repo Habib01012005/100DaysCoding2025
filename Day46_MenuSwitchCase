@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Day46_MenuSwitchCase {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("=======Daftar Menu MatKul========");
+        System.out.println("1. Pemrograman Jaringan");
+        System.out.println("2. Pemrograman Mobile");
+        System.out.println("3. Pemrograman Dasar");
+        System.out.print("Silahkan Anda Pilih MatKul 1-4 : ");
+        int pilihan = sc.nextInt();
+        System.out.println("=================================");
+
+        switch (pilihan) {
+            case 1:
+                System.out.println("Anda Memilih Mata Kuliah : \"Pemrograman Jaringan\"");
+                break;
+            case 2:
+                System.out.println("Anda Memilih Mata Kuliah : \"Pemrograman Mobile\"");
+                break;
+            case 3:
+                System.out.println("Anda Memilih Mata Kuliah : \"Pemrograman Dasar\"");
+                break;
+            default:
+                System.out.println("Mata Kuliah Yang Anda Pilih Tidak Ada Dalam Daftar Menu MatKul");
+        }
+    }
+}
