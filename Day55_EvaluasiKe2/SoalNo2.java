@@ -6,10 +6,11 @@ public class SoalNo2 {
         System.out.print("Nilai : ");
         int nilai = sc.nextInt();
 
-        if(nilai >= 80){
+        if(nilai > 70){
             System.out.println("Ujian Kroco Ji Pale");
         }else{
             System.out.println("Sa Jappoka Aih");
         }
     }
 }
+
