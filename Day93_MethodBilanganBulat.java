@@ -1,4 +1,4 @@
-public class Day94_MethodBilanganBulat {
+public class Day93_MethodBilanganBulat {
     public static void main(String[] args) {
         double angka = 5.6;
 
